@@ -10,7 +10,11 @@ namespace DISample
     {
         static void Main(string[] args)
         {
+            BusinessLogic businessLogic = new BusinessLogic();
 
+            businessLogic.ProcessData();
+
+            Console.ReadLine();
         }
     }
 }

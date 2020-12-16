@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleUI;
 
 namespace ConsoleUI
 {
@@ -15,6 +16,7 @@ namespace ConsoleUI
         {
             var builder = new ContainerBuilder();
 
+            builder.RegisterType<Application>
             builder.RegisterType<BusinessLogic>().As<IBusinessLogic>();
 
             builder.RegisterAssemblyTypes(Assembly.Load(nameof(DemoLibrary)))

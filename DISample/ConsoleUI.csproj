@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4FB293A1-9B56-4EF4-BDC6-9E8728483DFB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DISample</RootNamespace>
+    <RootNamespace>ConsoleUI</RootNamespace>
     <AssemblyName>DISample</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
